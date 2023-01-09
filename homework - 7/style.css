@@ -64,6 +64,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 5px;
+  width: 400px;
 }
 
 .repos-container {
@@ -93,6 +94,7 @@ h3 {
   display: flex;
   justify-content: left;
   font-size: 16px;
+  font-weight: lighter;
 }
 
 .user-public-repos {
@@ -105,16 +107,6 @@ h3 {
   display: flex;
   box-shadow: 0 0 10px #401487;
   text-decoration: none;
-}
-
-/* .user-public-repos:hover {
-  cursor: pointer;
-  display: block;
-} */
-
-p:hover {
-  cursor: pointer;
-  display: block;
 }
 
 .user-followers,

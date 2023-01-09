@@ -1,6 +1,5 @@
-const reposContainer = document.querySelector(".repos-container");
-
 export const createRepository = (userRepos) => {
+  const reposContainer = document.querySelector(".repos-container");
   userRepos.slice(0, 8).forEach((repo) => {
     let userPublicRepo = document.createElement("a");
     userPublicRepo.classList.add("user-public-repos");

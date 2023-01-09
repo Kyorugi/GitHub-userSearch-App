@@ -1,5 +1,5 @@
 import { getUser } from "./data fetches/UserFetching.js";
-const reposContainer = document.querySelector(".repos-container");
+// const reposContainer = document.querySelector(".repos-container");
 let userSearch = document.querySelector(".user-search-input");
 let userLogin = "graffiss";
 
@@ -11,9 +11,9 @@ function displayUser() {
 
 userSearch.addEventListener("change", displayUser);
 
-function removeUser() {
-  userSearch.addEventListener("change", () => {
-    reposContainer.innerHTML = "";
-  });
-}
-removeUser();
+// function removeUser() {
+//   userSearch.addEventListener("change", () => {
+//     reposContainer.innerHTML = "";
+//   });
+// }
+// removeUser();

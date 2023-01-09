@@ -8,7 +8,6 @@ export async function getUser(login) {
     let userError = "User doesn't exist";
     alert(userError);
     window.location.reload();
-    console.log("User doesnt exist");
   }
   const user = await response.json();
   console.log(user);
