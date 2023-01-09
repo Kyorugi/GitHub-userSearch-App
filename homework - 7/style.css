@@ -7,6 +7,7 @@ body {
   text-align: center;
   justify-content: center;
   align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .user-search-field {
@@ -40,9 +41,84 @@ body {
 }
 
 .user-container {
-  background-color: rgba(74, 39, 188, 0.546);
-  width: 700px;
-  height: 250px;
+  background-color: #4c189f;
+  min-width: 600px;
+  max-width: 630px;
+  height: fit-content;
+  width: fit-content;
+  min-height: 230px;
+  padding: 20px;
   border-radius: 20px;
   box-shadow: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.user-information {
+  color: beige;
+  margin-top: 20px;
+}
+
+.user-follows-repos {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.repos-container {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin-top: 18px;
+  font-size: 13px;
+}
+
+img {
+  border-radius: 70px;
+  width: 120px;
+  height: 120px;
+  box-shadow: 0 0 1em;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+h1 {
+  font-size: 27px;
+  display: flex;
+  justify-content: left;
+}
+
+h3 {
+  display: flex;
+  justify-content: left;
+  font-size: 16px;
+}
+
+.user-public-repos {
+  background-color: #2a2b73;
+  color: white;
+  margin-right: 8px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 7px;
+  display: flex;
+  box-shadow: 0 0 10px #401487;
+  text-decoration: none;
+}
+
+/* .user-public-repos:hover {
+  cursor: pointer;
+  display: block;
+} */
+
+p:hover {
+  cursor: pointer;
+  display: block;
+}
+
+.user-followers,
+.user-following,
+.user-repos {
+  margin-right: 10px;
 }
